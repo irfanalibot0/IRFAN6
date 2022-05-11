@@ -13,19 +13,19 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "APP_ID": {
+    "TELEGRAM_API": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "API_HASH": {
+    "TELEGRAM_HASH": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "get this value from @BotFather",
       "value": ""
     },
-    "AUTH_CHANNEL": {
+    "GDRIVE_FOLDER_ID": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work., Put Group ID",
       "value": ""
     },
@@ -33,90 +33,90 @@
       "description": "should be an integer. ID of owner of bot",
       "value": ""
     },
-    "UPLOAD_AS_DOC": {
+    "DOWNLOAD_DIR": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
       "required": false
     },
-    "CHUNK_SIZE": {
+    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
       "description": "should be an integer",
       "value": "128",
       "required": false
     },
-    "ARIA_TWO_STARTED_PORT": {
+    "AUTO_DELETE_MESSAGE_DURATION": {
       "description": "should be an integer. The port on which aria2c daemon must start, and keep listening.",
       "value": "6800",
       "required": false
     },
-    "EDIT_SLEEP_TIME_OUT": {
+    "AUTO_DELETE_UPLOAD_MESSAGE_DURATION": {
       "description": "should be an integer. Number of seconds to wait before editing a message.",
       "value": "15",
       "required": false
     },
-    "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
+    "IS_TEAM_DRIVE": {
       "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
       "required": false
     },
-    "FINISHED_PROGRESS_STR": {
+    "AUTHORIZED_CHATS": {
       "description": "should be a single character.",
       "required": false
     },
-    "UN_FINISHED_PROGRESS_STR": {
+    "IGNORE_PENDING_REQUESTS": {
       "description": "should be a single character.",
       "required": false
     },
-    "TG_OFFENSIVE_API": {
+    "INDEX_URL": {
       "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
       "required": false
     },
-    "LEECH_COMMAND": {
+    "LEECH_ENABLED": {
       "description": "Enter your custom leech command like /leech@botname and so on. Default is /leech",
       "required": false
     },
-    "SAVE_THUMBNAIL": {
+    "LEECH_LOG": {
       "description": "For custom thumbnail Command. default is /savethumbnail",
       "required": false
     },
-    "CLEAR_THUMBNAIL": {
+    "LEECH_LOG_ALT": {
       "description": "For Delete Thumbnail Command. Default is /clearthumbnail",
       "required": false
     },
-    "INDEX_LINK": {
+    "MIRROR_LOGS": {
       "description": "Enter your index link:",
       "required": false
     },
-    "GLEECH_COMMAND": {
+    "LINK_LOGS": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
       "required": false
     },
-    "TELEGRAM_LEECH_COMMAND_G": {
+    "FSUB": {
       "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
       "required": false
     },
-    "YTDL_COMMAND": {
+    "FSUB_CHANNEL_ID": {
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
       "required": false
     },
-    "PYTDL_COMMAND_G": {
+    "CHANNEL_USERNAME": {
       "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
       "required": false
     },
-    "CANCEL_COMMAND_G": {
+    "TITLE_NAME": {
       "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
       "required": false
     },
-    "GET_SIZE_G": {
+    "AUTHOR_NAME": {
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
       "required": false
     },
-    "RCLONE_CONFIG": {
+    "AUTHOR_URL": {
       "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
       "required": false
     },
-    "DESTINATION_FOLDER": {
+    "BASE_URL_OF_BOT": {
       "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
       "required": false
     },
-    "CUSTOM_FILE_NAME": {
+    "TOKEN_PICKLE_URL": {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
     }
