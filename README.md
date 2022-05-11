@@ -1,3 +1,6 @@
+[![Deploy](https://cdn.scalingo.com/deploy/button.svg)](https://dashboard.scalingo.com/create/app?source=https://github.com/irfanalibot0/Irfan3)
+
+
 [![Deploy 2 Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/irfanalibot0/irfan6)
 
 This is a Telegram Bot written in Python for mirroring files on the Internet to your Google Drive or Telegram.
